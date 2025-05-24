@@ -1,8 +1,23 @@
-
+*{
+    margin: 0;
+}
 
 body{
     font-family: 'Montserrat', sans-serif;
     background-image: url(imagens/Background.jpg);
     background-size: cover;
+    text-align: center; 
+}
+
+.tittle{
+    font-size: 36px bold;
+    border-color: #26093A;
+    color: #26093A;
+    -webkit-text-stroke: 1px #FFFFFF;
+}
+
+#caixa{
+    background-color: #26093A;
+    border-radius: 80px;
 }
 
