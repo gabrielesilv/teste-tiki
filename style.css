@@ -3,21 +3,81 @@
 }
 
 body{
+    display: block;
     font-family: 'Montserrat', sans-serif;
     background-image: url(imagens/Background.jpg);
     background-size: cover;
     text-align: center; 
 }
 
+.logo{
+    margin: 20px 20px 60px 40px;
+
+}
+
 .tittle{
     font-size: 36px bold;
+    margin: 90px 20px 60px 40px;
+
     border-color: #26093A;
     color: #26093A;
     -webkit-text-stroke: 1px #FFFFFF;
 }
 
+/* diminuir */
 #caixa{
     background-color: #26093A;
     border-radius: 80px;
+    padding-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    height: 500%;
 }
 
+.icon-yellow{
+    margin: 90px 20px 60px 40px;
+}
+
+/* diminuir */
+.spoiler{
+    margin: 90px 20px 60px 40px;
+
+}
+
+/* diminuir */
+.seta-down{
+    margin: 90px 20px 60px 40px;
+}
+
+/* diminuir */
+.tittle2{
+    margin: 90px 40px 40px 60px;
+    color: #FFFFFF;
+}
+
+/* diminuir */
+.img-caixa img{
+    border-radius: 40px;
+}
+
+.img-footer:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    font-size: 12px bold;
+    color: #FFFFFF;
+    font-size: 10px;
+    gap: 3%;
+    background-color: #000000;
+    background-position: bottom;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+/* diminuir */
+.tittle3 {
+    color: #FFFFFF;
+}
