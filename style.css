@@ -28,7 +28,6 @@ body{
     padding-top: 10px;
     margin-left: 20%;
     margin-right: 20%;
-    height: 500%;
 }
 
 .icon-yellow{
@@ -164,4 +163,92 @@ body{
 .arrow{
     box-shadow: 3px 5px 0px #FC2BEE;
     opacity: 100%;
+    padding: 7%;
+    border-radius: 50%;
+}
+
+/* título  */
+.fazer-parte{
+    margin: 100px 20px 100px 20px;
+}
+
+/* título formulário */
+.titulo-form{
+    margin: 40px 40px 40px 40px;
+    color: #FFFFFF;
+    font-size: 14px bold;
+    line-height: 1.4;
+}
+
+/* caixa formulário */
+.section-form{
+    margin-top: 24px;
+    display: block;
+}
+
+.formulario{
+    background-color: #26093A;
+    border-radius: 80px;
+    padding: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/* inputs */
+.formulario input[type="text"], .formulario input[type="email"]{
+  width: 80%;
+  height: 70px;
+  margin: 10px 0;
+  border-radius: 40px;
+  border: 2px solid #FFFFFF;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-size: 14px regular;
+  padding: 0 20px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.formulario input:focus{
+    color: #FC2BEE;
+    border-color: #FC2BEE;
+}
+
+.formulario label {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.termo{
+    display: flex;
+    font-size: 14px;
+    font-weight:600;
+    align-items: center;
+    margin: 30px 0 30px 10px;
+    color: #FFFFFF;
+}
+
+
+.formulario input[type="checkbox"]{
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+
+/* botão */
+
+.formulario button {
+    margin-top: 20px;
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 40px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #280031;
+    opacity: 100%;
+    box-shadow: 3px 5px 0 #FC2BEE;
 }
