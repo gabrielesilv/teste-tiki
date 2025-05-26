@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     display: block;
     font-family: 'Montserrat', sans-serif;
@@ -31,7 +35,7 @@ body{
 }
 
 .icon-yellow{
-    margin: 90px 20px 60px 40px;
+    margin: 90px 20px 10px 40px;
 }
 
 /* imagem spoiler */
@@ -80,7 +84,8 @@ body{
 }
 
 .img-caixa:hover .img-footer {
-    font-size: 12px bold;
+    font-size: 12px;
+    font-weight: bold;
     background-color: #000000;
     height: 70px;
     opacity: 90%;
@@ -103,14 +108,7 @@ body{
     font-size: 18px;
 }
 
-
-
-
-
-
-
-
-
+/* carrossel */
 .carrossel-caixa {
     position: relative;
     width: 80px;
@@ -150,7 +148,7 @@ body{
 
 .item p {
     margin-top: 8px;
-    font-size: 14px bold;
+    font-size: 14px;
     font-weight: bold;
     color: #FC2BEE;
     margin-top: 8px;
@@ -174,24 +172,25 @@ body{
 
 /* título formulário */
 .titulo-form{
-    margin: 40px 40px 40px 40px;
+    margin: 60px 40px 40px 40px;
     color: #FFFFFF;
-    font-size: 14px bold;
+    font-size: 18px ;
     line-height: 1.4;
 }
 
-/* caixa formulário */
+/* caixa roxa formulário */
 .section-form{
-    margin-top: 24px;
+    padding: 7%;
     display: block;
 }
 
 .formulario{
     background-color: #26093A;
     border-radius: 80px;
-    padding: 30px;
-    margin-left: 30%;
-    margin-right: 30%;
+    padding: 30px 20px;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /* inputs */
@@ -214,22 +213,24 @@ body{
     border-color: #FC2BEE;
 }
 
+/* fonte cor branca do input */
+.formulario input::placeholder, .formulario textarea::placeholder {
+  color: #FFFFFF;
+}
+
 .formulario label {
     display: flex;
     align-items: center;
     margin-left: 50px;
-
 }
 
 .termo{
-    display: flex;
+    display: inline-block;
     font-size: 14px;
     font-weight:600;
-    align-items: center;
     margin: 30px 0 30px 10px;
     color: #FFFFFF;
 }
-
 
 .formulario input[type="checkbox"]{
     border: 2px solid #ffffff;
@@ -237,10 +238,9 @@ body{
     background-color: transparent;
 }
 
-
-/* botão */
-
+/* botão formulário */
 .formulario button {
+    width: 80%;
     margin-top: 20px;
     padding: 20px 40px;
     font-size: 24px;
@@ -249,6 +249,20 @@ body{
     border: none;
     background-color: #FFFFFF;
     color: #280031;
+    cursor: pointer;
     opacity: 100%;
     box-shadow: 3px 5px 0 #FC2BEE;
+}
+
+/* footer */
+.titulo-texto-legal{
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+footer {
+    font-size: 10px;
+    color: #FFFFFF;
+    margin: 20px 400px 120px 400px;
 }
